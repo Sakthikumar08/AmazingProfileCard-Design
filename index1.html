@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Open+Sans:200);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+body {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  background:linear-gradient(127deg,rgb(131, 129, 126) 0%,rgb(21, 27, 26) 100%);
+  text-align: center;
+}
+
+.card {
+  font-family: 'Open Sans', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #000;
+  text-align: left;
+  font-size: 16px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.card *,
+.card:before,
+.card:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.card img {
+  max-width: 35%;
+  margin-top: -15px;
+  margin-left: 60%;
+  margin-bottom: 15px;
+  backface-visibility: hidden;
+  vertical-align: top;
+  border-radius: 5px;
+}
+
+.card figcaption {
+  position: absolute;
+  top: 0;
+  right: 40%;
+  left: 0;
+  bottom: 0;
+  padding: 15px;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: normal;
+}
+
+.card .icons {
+  font-size: 1.6rem;
+}
+
+.card .icons a {
+  color: #ccc;
+}
+
+.card .icons a:hover {
+  color: #216eb2;
+}
+
+
+
+    </style>
+  </head>
+  <body>
+    <figure class="card">
+      <img src="profile/kl.jpeg" alt="person1" />
+      <figcaption>
+        <h3>KL Rahul</h3>
+        <div class="icons">
+          <a href="#"><i class="ion-social-twitter"></i></a>
+          <a href="#"> <i class="ion-social-instagram-outline"></i></a>
+          <a href="#"> <i class="ion-social-github"></i></a>
+        </div>
+      </figcaption>
+    </figure>
+
+    <figure class="card">
+      <img src="profile/msd.jpeg" style="height: 120px;" alt="profile-sample5" />
+      <figcaption>
+        <h3>MS Dhoni</h3>
+        <div class="icons">
+          <a href="#"><i class="ion-social-twitter"></i></a>
+          <a href="#"> <i class="ion-social-instagram-outline"></i></a>
+          <a href="#"> <i class="ion-social-github"></i></a>
+        </div>
+      </figcaption>
+    </figure>
+    <figure class="card">
+      <img src="profile/pat.jpeg" alt="profile-sample4" />
+      <figcaption>
+        <h3>Pat Cummins</h3>
+        <div class="icons">
+          <a href="#"><i class="ion-social-twitter"></i></a>
+          <a href="#"> <i class="ion-social-instagram-outline"></i></a>
+          <a href="#"> <i class="ion-social-github"></i></a>
+        </div>
+      </figcaption>
+    </figure>
+    <figure class="card">
+        <img src="profile/virat.jpeg" style="height: 120px;" alt="profile-sample5" />
+        <figcaption>
+          <h3>Virat Kohli</h3>
+          <div class="icons">
+            <a href="#"><i class="ion-social-twitter"></i></a>
+            <a href="#"> <i class="ion-social-instagram-outline"></i></a>
+            <a href="#"> <i class="ion-social-github"></i></a>
+          </div>
+        </figcaption>
+      </figure>
+  </body>
+</html>
